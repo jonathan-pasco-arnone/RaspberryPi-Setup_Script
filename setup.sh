@@ -6,13 +6,11 @@
 # then at the end, reboot for everything to take effect
 # sudo reboot now
 
-
-
 # update and upgrade system
 echo Update and upgrade system
 sudo apt-get update -y
 sudo apt-get dist-upgrade -y
 
-# Installs neovim anf git
+# Installs neovim and git
 sudo apt-get install neovim
 sudo apt-get install git
